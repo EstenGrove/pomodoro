@@ -7,4 +7,4 @@ Pomodoro built with vanilla javascript. Allows user to set custom "Work" and "Br
 
 ###### Mobile Shot
 
-![pomodoropic](https://user-images.githubusercontent.com/41505038/51429587-40262c80-1bcd-11e9-8265-69402bd67a3e.png)
+![pomodoropic](https://user-images.githubusercontent.com/41505038/51429613-97c49800-1bcd-11e9-8cda-679c343659ab.png)
