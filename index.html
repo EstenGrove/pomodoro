@@ -1,0 +1,60 @@
+<!-- ******************************************
+*  Author : Esten Grove   
+*  Created On : Sat Dec 08 2018
+*  File : index.html
+******************************************* -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="author" content="Esten Grove">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>Pomodoro</title>
+</head>
+
+<body>
+    <!-- Controls for the Timer and Break -->
+    <section class="settings-grid">
+        <aside class="workTime">
+            <h2 class="work-title">Work Time!</h2>
+            <h3 class="set-counter"></h3>
+            <button class="addWork" title="Increase Work Time">+</button>
+            <button class="subWork" title="Decrease Work Time">-</button>
+        </aside>
+        <div class="countTime">
+            <div class="counter-outer">
+                <h2 class="counter-mainTimer"></h2>
+            </div>
+        </div>
+        <aside class="breakTime">
+            <h2 class="break-title">Break Time!</h2>
+            <h3 class="set-counter break1"></h3>
+            <button class="addBreak" title="Increase Break Time">+</button>
+            <button class="subBreak" title="Decrease Break Time">-</button>
+        </aside>
+    </section>
+    <!-- Display the Countdown -->
+    <section class="display-grid">
+        <div class="counter">
+
+        </div>
+        <div class="counter-controls">
+            <button class="play" title="Start Working!">Play</button>
+            <button class="pause" title="Pause Working">Pause</button>
+            <button class="resume" title="Resume Working/Break">Resume</button>
+            <button class="break" title="Start Break">Break!</button>
+        </div>
+
+    </section>
+
+    <script type="text/javascript" src="refactored.js">
+
+
+    </script>
+</body>
+
+</html>
